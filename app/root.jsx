@@ -6,10 +6,19 @@ import {
   Scripts,
   ScrollRestoration
 } from "remix";
+import "./index.js"
 
 export function meta() {
   return { title: "New Remix App" };
 }
+import tailwindstyles from "./tailwind.css";
+
+// https://remix.run/api/app#links
+export let links = () => {
+  return [
+    { rel: "stylesheet", href: tailwindstyles }
+  ];
+};
 
 export default function App() {
   return (
