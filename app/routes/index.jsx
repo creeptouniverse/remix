@@ -1,5 +1,5 @@
 import { Link } from "remix";
-import React from "react"
+
 export default function Index() {
   return (
     <div>
@@ -1448,8 +1448,8 @@ export default function Index() {
         <a href="http://tridiv.com">
           <img src="https://s.cdpn.io/1137/tridiv-logo.png" alt="Made with Tridiv" />
         </a>
-        <p className="making">Making 3D in CSS has never been easier</p>
-        <a className="btn" href="http://tridiv.com">tridiv.com</a>
+        <p className="making">The Project Never Before</p>
+        <a className="btn" href="http://twitter.com/creeptouniverse">Twitter</a>
       </div>
     </div>
     </section>
