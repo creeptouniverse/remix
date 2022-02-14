@@ -1,4 +1,5 @@
 import { Link } from "remix";
+import logo from "../assets/logo.png"
 
 export default function Index() {
   return (
@@ -1445,8 +1446,8 @@ export default function Index() {
       </div>
       <div className="build-with">
         <p>CreepTO Universe</p>
-        <a href="http://tridiv.com">
-          <img src="https://s.cdpn.io/1137/tridiv-logo.png" alt="Made with Tridiv" />
+        <a href="http://twitter.com/creeptouniverse">
+          <img src={logo} alt="Made with Tridiv" />
         </a>
         <p className="making">The Project Never Before</p>
         <a className="btn" href="http://twitter.com/creeptouniverse">Twitter</a>
