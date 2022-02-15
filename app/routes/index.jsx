@@ -1,6 +1,6 @@
 import { Link } from "remix";
 import logo from "../assets/logo.png"
-
+import Tabbar from './Tabbar'
 export default function Index() {
   return (
     <div>
@@ -1451,10 +1451,11 @@ export default function Index() {
         </a>
         <p className="making">The Project Never Before</p>
         <a className="btn" href="http://twitter.com/creeptouniverse">Twitter</a>
+       
       </div>
     </div>
-    </section>
-   
+    </section> 
+    <Tabbar />
        </div>
   );
 }
