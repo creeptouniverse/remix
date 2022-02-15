@@ -45,7 +45,7 @@ li{
   background-color: aquamarine;
 }
 .bg {
-  background: repeating-linear-gradient(
+  background: linear-gradient(
     -45deg,
     #60ff66 0,
     #f0fff6 10px,
@@ -53,7 +53,9 @@ li{
     #e9fff2 20px
   );
 }
-
+.text{
+  color: black;
+}
 .main-timeline {
   font-family: verdana;
   position: relative;
