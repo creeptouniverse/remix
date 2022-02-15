@@ -11,6 +11,13 @@ body{
   text-decoration: none;
   text-align: center;
 }
+.upnav{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
 .Ul{
   padding: 10px;
 
@@ -2738,4 +2745,7 @@ a{
   margin-top: 5px;
   text-decoration: none;
   color: white;
+}
+.upnav{
+  
 }
