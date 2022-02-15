@@ -1466,9 +1466,7 @@ export default function Index() {
     <section className="section2">
       <Roadmap />
     </section>
-    <section>
       <Footer />
-    </section>
   
   
        </div>

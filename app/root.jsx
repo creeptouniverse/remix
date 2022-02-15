@@ -9,7 +9,7 @@ import {
 import "./index.js"
 
 export function meta() {
-  return { title: "New Remix App" };
+  return { title: "Creepto club - Collection of some creepy universe" };
 }
 import tailwindstyles from "./tailwind.css";
 
