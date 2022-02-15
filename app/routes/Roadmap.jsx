@@ -1,4 +1,4 @@
-import { Link } from "remix"
+import { Link } from "remix";
 export default function Roadmap(){
     return(
         <section>
@@ -6,9 +6,9 @@ export default function Roadmap(){
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <div className="bg">
-          <div className="text">
+          <div className="text"></div>
           <h1>CreepTo Roadmap</h1>
-          <p>Roadmap of what we are doing and our future goals.</p></div>
+          <p>Roadmap of what we are doing and our future goals.</p>
           <div className="container">
             <div className="row py-5">
               <div className="col-md-12">

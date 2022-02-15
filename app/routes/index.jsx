@@ -1,10 +1,10 @@
 import { Link } from "remix";
 import logo from "../assets/logo.png"
-import Tabbar from './Tabbar'
 export default function Index() {
   return (
     <div>
 <section className="main">
+ 
     <div id="anime">
       <div className="stars" />
       <div id="tridiv">
@@ -1451,11 +1451,12 @@ export default function Index() {
         </a>
         <p className="making">The Project Never Before</p>
         <a className="btn" href="http://twitter.com/creeptouniverse">Twitter</a>
+        <a className="btn" href="/roadmap">Roadmap</a>
+
        
       </div>
     </div>
     </section> 
-    <Tabbar />
        </div>
   );
 }
