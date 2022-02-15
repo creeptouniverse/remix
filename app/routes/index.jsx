@@ -1,5 +1,8 @@
 import { Link } from "remix";
 import logo from "../assets/logo.png"
+import Roadmap from "./Roadmap"
+import About from "./About"
+import Footer from "./Footer";
 export default function Index() {
   return (
     <div>
@@ -1445,18 +1448,29 @@ export default function Index() {
         </div>
       </div>
       <div className="build-with">
-        <p>CreepTO Universe</p>
+        <p className="p3">CreepTO Universe</p>
         <a href="http://twitter.com/creeptouniverse">
           <img src={logo} alt="Made with Tridiv" />
         </a>
         <p className="making">The Project Never Before</p>
         <a className="btn" href="http://twitter.com/creeptouniverse">Twitter</a>
-        <a className="btn" href="/roadmap">Roadmap</a>
+        <a className="btn" href="#roadmap">Roadmap</a>
 
        
       </div>
     </div>
     </section> 
+    <section className="section1">
+<About />
+    </section>
+    <section className="section2">
+      <Roadmap />
+    </section>
+    <section>
+      <Footer />
+    </section>
+  
+  
        </div>
   );
 }

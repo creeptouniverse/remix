@@ -1,10 +1,8 @@
 import { Link } from "remix";
 export default function Roadmap(){
     return(
-        <section>
-          <div className="upnav">
-            <Link to="/">Home</Link>
-            </div>
+        <section id="roadmap">
+          
             <div>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -45,7 +43,7 @@ export default function Roadmap(){
                       <div className="timeline-date">
                         <h4>Phase 3</h4>
                       </div>
-                      <h4>Establishing governance for the wallets.initial funding for both wallets will be generated from royalies on secondary market as well as initially from minting.</h4>
+                      <h4 className="title">Establishing governance for the wallets.initial funding for both wallets will be generated from royalies on secondary market as well as initially from minting.</h4>
                     </div>
                   </div>
                   <div className="timeline">

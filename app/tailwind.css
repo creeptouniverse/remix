@@ -1,5 +1,22 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
 body{
   margin: 0;
+  background-color: black;
+  overflow: hidden;
+  overflow-y: scroll;
+
+
 }
 .Main{
   background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
@@ -9,6 +26,15 @@ body{
   height: 40px;
   background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
   text-decoration: none;
+  text-align: center;
+}
+.section2{
+  height: 290vh;
+}
+section{
+  height: 100vh;
+  background-color: black;
+  color:white;
   text-align: center;
 }
 .upnav{
@@ -54,18 +80,21 @@ li{
 .bg {
   background: linear-gradient(
     -45deg,
-    #60ff66 0,
-    #f0fff6 10px,
-    #e9fff2 10px,
-    #e9fff2 20px
+    #000000 0,
+    #000000 10px,
+    #000000 10px,
+    #070707 20px
   );
 }
 .text{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .main-timeline {
   font-family: verdana;
   position: relative;
+}
+.title{
+  color: black;
 }
 
 .main-timeline:after {
@@ -81,17 +110,13 @@ li{
 }
 
 .main-timeline .timeline-content {
-  color: #000;
-  background: radial-gradient(
-    rgba(255, 255, 207, 0.8),
-    rgba(255, 255, 207, 0.6),
-    transparent
-  );
+  color: rgb(255, 255, 255);
+  background: white;
   text-align: center;
   min-height: 125px;
   padding: 30px 85px 30px 75px;
   border-radius: 15px;
-  border: 2px solid #000;
+  border: 2px solid rgb(255, 255, 255);
   display: block;
   position: relative;
 }
@@ -105,10 +130,10 @@ li{
   background-color: #ff4f00;
   font-size: 18px;
   line-height: 65px;
-  height: 75px;
+  height: 65px;
   width: 150px;
   padding: 16px 0;
-  border: 6px solid #fff;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 38px;
   transform: translateY(-50%);
   position: absolute;
@@ -119,7 +144,7 @@ li{
 .main-timeline .timeline-date:before,
 .main-timeline .timeline-date:after {
   content: "";
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   height: 7px;
   width: 7px;
   border-radius: 50%;
@@ -129,9 +154,7 @@ li{
   top: -12px;
 }
 
-.main-timeline .timeline-date:after {
-  top: calc(100% + 6px);
-}
+
 
 .main-timeline .title {
   color: #e40;
@@ -163,18 +186,18 @@ li{
 }
 
 .main-timeline .timeline:nth-child(4n + 2) .timeline-date {
-  background-color: #fa0;
+  background-color: rgb(121, 80, 0);
 }
 
 .main-timeline .timeline:nth-child(4n + 2) .title {
-  color: #fa0;
+  color: rgb(87, 58, 0);
 }
 
 .main-timeline .timeline:nth-child(4n + 3) .timeline-date {
   background-color: #0ba;
 }
 
-.main-timeline .timeline:nth-child(4n + 3) .title {
+.main-timeline .timeline:nth-child(4n + 3) {
   color: #0ba;
 }
 
@@ -182,7 +205,7 @@ li{
   background-color: #0af;
 }
 
-.main-timeline .timeline:nth-child(4n + 4) .title {
+.main-timeline .timeline:nth-child(4n + 4) {
   color: #0af;
 }
 
@@ -2748,4 +2771,37 @@ a{
 }
 .upnav{
   
+}
+.story{
+  border: 2px solid white;
+  padding: 40px;
+}
+.p2{
+  margin: 10px;
+}
+.section1{
+  height: 80vh;
+}
+.engage{
+  width: 100px;
+  height: 50px;
+  border-radius: 25%;
+  border-style: none;
+  background-color: black;
+  color: wheat;
+  border: 1px solid gray;
+  margin-top: 20px;
+}
+.engage:hover{
+  background-color: #02101f;
+}
+.story1{
+  font-size: 70px;
+  font-weight: bolder;
+
+}
+.p3{
+  font-size: 70px;
+  font-weight: bolder;
+
 }
