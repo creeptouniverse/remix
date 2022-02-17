@@ -1448,7 +1448,7 @@ export default function Index() {
         </div>
       </div>
       <div className="build-with">
-        <p className="p3">CreepTO Universe</p>
+        <p className="p"></p>
         <a href="http://twitter.com/creeptouniverse">
           <img src={logo} alt="Made with Tridiv" />
         </a>
