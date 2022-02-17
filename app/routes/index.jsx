@@ -1453,7 +1453,7 @@ export default function Index() {
           <img src={logo} alt="Made with Tridiv" />
         </a>
         <p className="making">The Project Never Before</p>
-        <a className="btn" href="http://twitter.com/creeptouniverse">Twitter</a>
+        <a className="btn" href="http://twitter.com/creeptoclub">Twitter</a>
         <a className="btn" href="#roadmap">Roadmap</a>
 
        
