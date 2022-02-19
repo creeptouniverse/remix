@@ -1454,7 +1454,7 @@ export default function Index() {
         </a>
         <p className="making">The Project Never Before</p>
         <a className="btn" href="http://twitter.com/creeptoclub">Twitter</a>
-        <a className="btn" href="#roadmap">Roadmap</a>
+        <a className="btn" href="#roadmap">Fundus</a>
 
        
       </div>
