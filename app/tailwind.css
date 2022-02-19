@@ -30,6 +30,7 @@ body{
 }
 .section2{
   height: 290vh;
+  margin-bottom: -150px;
 }
 section{
   height: 100vh;
@@ -2771,14 +2772,18 @@ a{
   
 }
 .story{
-  border: 2px solid white;
-  padding: 40px;
+  padding: 50px;
 }
 .p2{
   margin: 10px;
 }
 .section1{
-  height: 80vh;
+  height: 100vh;
+  border: 8px solid white;
+  margin-bottom: -150px;
+
+  
+
 }
 .engage{
   width: 100px;
