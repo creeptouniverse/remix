@@ -1,14 +1,16 @@
+import logo from "../assets/logo.png"
 export default function About(){
     return(
-        <section>
-            <div className="story">
-            <p className="story1">THE STORY</p>
-            <p className="p2">AN NFT COLLECTION OF Unique worlds - UNIQUE 3D Universe/Worlds BUILT WITH A SOPHISTICATED VARIETY OF DISTINCTIVE TRAITS ON THE ETHEREUM and Polygon BLOCKCHAIN. THE Creepto Club WILL BE PACKED WITH UTILITY. SERVING AS MORE THAN A COOL PFP, A Creepto Club NFT WILL GET UPDATED AS TIME GOES ON.Expanding our Universe to Multyverse is our goal.
-</p>
-<button className="engage">
-    Engage
-</button></div>
-        </section>
+       <section className="div-about">
+           <div className="div-img">
+               <img className="about-image-logo" src={logo}></img>
+           </div>
+           <div className="p">
+               <p className="the-story">THE STORY</p>
+               <p className="p-2">Creeptouniverse is collectable NFT project centered around community. All Universes in multiverse(polygon) as non-fungible tokens(NFT) made up of a unique combination of traits.</p>
+               <p className="p-2">Holding a Creepto NFT makes you a part of our multiverse – a member of a world and community that serves to build meaningful long-term connection through collaboration!</p>
+           </div>
+       </section>
 
     )
 }

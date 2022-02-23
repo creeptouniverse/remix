@@ -1,1 +1,1 @@
-document.getElementsById("myFunction").innerHTML="hello"
+document.getElementById("demo"),innerHTML = "hiihhih"

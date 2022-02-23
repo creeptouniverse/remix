@@ -7,18 +7,26 @@ import {
   ScrollRestoration
 } from "remix";
 import "./index.js"
-
+import "./script.js"
+import loginStyles from "./login.css";
 export function meta() {
   return { title: "Creepto club - Collection of some creepy universe" };
 }
 import tailwindstyles from "./tailwind.css";
-
-// https://remix.run/api/app#links
 export let links = () => {
   return [
+    {
+      rel: "stylesheet",
+      href: loginStyles
+    },
     { rel: "stylesheet", href: tailwindstyles }
   ];
 };
+export let link = () => {
+  return[
+    { rel: "stylesheet", href: index}
+  ]
+}
 
 export default function App() {
   return (
