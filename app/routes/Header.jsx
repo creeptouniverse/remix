@@ -2,16 +2,16 @@ import image from "../assets/image-1.png"
 
 export default function Header(){
     return(
-        <section className="header">
+        <section className="header" id="header">
             <nav>
-                <a href="/">
+                <a href="#header">
                 <li>Welcome!</li></a>
                 <a href="/">
                 <li>About</li></a>
-                <a href="/">
+                <a href="#roadmap">
                 <li>Roadmap</li></a>
-                <a href="/">
-                <li>Contact</li></a>
+                <a href="#gallery">
+                <li>Gallery</li></a>
                 <a href="/"></a>
             </nav>
             <div className="head-p">
@@ -19,7 +19,7 @@ export default function Header(){
                 Welcome to <br/>
                 CreeptoUniverse</p>
                 <p>The Project Never Before.
-NFT collection of 3D amazing creepy universe.
+NFT collection of 3D amazing creepy universe. Full collection lunching soon. Subscribe to 
 </p>
                 <button className="header-button-1" title="Presale Products on opensea">Presale</button>
                 <button className="header-button-2">Discord</button>

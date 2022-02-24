@@ -1,7 +1,7 @@
 import { Link } from "remix";
 export default function Roadmap(){
     return(
-      <section className="section-roadmap">
+      <section className="section-roadmap" id="roadmap">
         <p className="map-roadmap">ROADMAP
         <time className="time" dateTime="2008-02-02">
                       <span className="time__day">V - 0.01</span>
