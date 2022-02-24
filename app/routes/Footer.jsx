@@ -1,6 +1,7 @@
 export default function Footer(){
     return(
-    <section>
+    <section className="footer">
+      copyright@ 2022
       
 
   </section>

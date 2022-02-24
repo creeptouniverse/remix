@@ -73,7 +73,7 @@ export default function Roadmap(){
                 
                   </header>
                   <div className="card__content">
-                    <p>Realising new version of creepto roadmap on lunch date(March 20)
+                    <p>release new version of creepto roadmap on lunch date(March 20)
 
 </p>
                   </div>

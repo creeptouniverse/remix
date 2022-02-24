@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url("//fonts.googleapis.com/css?family=Pacifico&text=Pure");
+@import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
+@import url("//fonts.googleapis.com/css?family=Kaushan+Script&text=!");
 html{
     margin: 0;
     padding: 0;
@@ -11,13 +14,12 @@ html::-webkit-scrollbar {
 }
 
 body{
-  background-image: url(https://universe.creepto.club/build/_assets/image-1-WYGC4JUJ.png);
-  background-size: 100vh;
-  background-repeat: no-repeat;
+  background-image: url('https://assets.codepen.io/1538474/star.svg'),linear-gradient(to bottom, #05007A, #4D007D);  background-repeat: no-repeat;
   background-attachment: fixed;
 font-family: 'Bangers', cursive;
 letter-spacing: 1px;
 }
+
 @media screen and (min-width: 600px){
 body{
   background-size: 100%;
@@ -65,8 +67,11 @@ a{
 li{
     text-decoration: none;
     display: inline;
-    color: rgb(0, 121, 121);
-    margin: 5px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/544/387/original/3d-yellow-fluid-background-free-vector.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;    
+    -webkit-text-fill-color: transparent;
+-webkit-text-fill-color: transparent;    margin: 5px;
     font-size: 20px;
     font-family: 'Bangers', cursive;
     letter-spacing: 3px;
@@ -78,6 +83,7 @@ li{
     position: absolute;
     right: 70px;
     top: 100px;
+    
 }
 .head-p{
     margin-left: 50px;
@@ -93,7 +99,7 @@ li{
       height: 180vh;
   }
   .gallery-section{
-    height: 300vh;
+    height: 280vh;
   }
     nav{
         text-align: center;
@@ -114,8 +120,10 @@ li{
         font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
-        background: -webkit-linear-gradient(right, rgb(0, 22, 216), rgb(150, 3, 64));
-    -webkit-background-clip: text;
+        background-image: url(https://static.vecteezy.com/system/resources/previews/002/544/387/original/3d-yellow-fluid-background-free-vector.jpg);
+        background-repeat: repeat;
+        -webkit-background-clip: text;    
+        -webkit-text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 
     }
@@ -169,8 +177,9 @@ box-shadow: 0 24px 43px -3px rgba(0, 0, 0, 0.55);
     font-weight: bold;
     font-family: 'Bangers', cursive;
     letter-spacing: 5px;
-    background: -webkit-linear-gradient(right, rgb(0, 22, 216), rgb(150, 3, 64));
-    -webkit-background-clip: text;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/544/387/original/3d-yellow-fluid-background-free-vector.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;    
     -webkit-text-fill-color: transparent;
     
 }
@@ -202,6 +211,9 @@ button{
     }
     .section-roadmap{
       height: 185vh;
+  }
+  .header{
+    height: 105vh;
   }
     
   }
@@ -237,7 +249,11 @@ button{
   }
   .p-2{
     font-size: 25px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Bangers', cursive;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/544/387/original/3d-yellow-fluid-background-free-vector.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
   }
   .p{
     box-shadow: 0 24px 43px -3px rgba(104, 103, 103, 0.55);
@@ -392,7 +408,7 @@ SKIN
 */
 
 .timeline{
-  --uiTimelineMainColor: var(--timelineMainColor, #222);
+  --uiTimelineMainColor: var(--timelineMainColor, rgb(233, 221, 221));
   --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
 
   border-left: var(--timelineLineWidth, 3px) solid var(--timelineLineBackgroundColor, var(--uiTimelineMainColor));
@@ -441,7 +457,7 @@ SETTINGS
 */
 /**/
 .timeline{
-  --timelineMainColor: #4557bb;
+  --timelineMainColor: #cccf03;
 }
 
 /*
@@ -512,7 +528,7 @@ DEMO
 
 
 .gallery-section{
-  height: 350vh;
+  height: 280vh;
 }
 }
 @media screen and (min-width: 600px) {
@@ -539,7 +555,7 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 5px solid rgba(255, 255, 255, 0.3);
+border: 5px solid rgb(255, 251, 0);
 margin-bottom: 10px;
 max-width: 300px;
 height: 300px;
@@ -547,4 +563,13 @@ margin: 5px;
 display: inline-block;
 padding: 1rem 1rem;
 vertical-align: middle;
+}
+.footer{
+  height: 5vh;
+  text-align: center;
+  padding-top: 10px;
+  color: #cccf03;
+}
+.p-head{
+  color: aqua;
 }
