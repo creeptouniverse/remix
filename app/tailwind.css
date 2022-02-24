@@ -242,6 +242,8 @@ button{
   .p{
     box-shadow: 0 24px 43px -3px rgba(104, 103, 103, 0.55);
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: var(--timelineCardBackgroundColor, rgba(255, 255, 255, 0.445));
+
     margin: 20px;
     border-radius: 20px;
     max-width: 800px;
@@ -346,7 +348,7 @@ skin
   border-radius: var(--timelineCardBorderRadius, 2px);
   border-left: var(--timelineCardBorderLeftWidth, 3px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
   box-shadow: var(--timelineCardBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24));
-  background-color: var(--timelineCardBackgroundColor, rgba(255, 255, 255, 0.527));
+  background-color: var(--timelineCardBackgroundColor, rgba(255, 255, 255, 0.473));
 }
 
 /*
