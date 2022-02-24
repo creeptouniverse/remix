@@ -11,7 +11,7 @@ html::-webkit-scrollbar {
 }
 
 body{
-  background-image: url(http://192.168.1.17:3000/build/_assets/image-1-WYGC4JUJ.png);
+  background-image: url(https://universe.creepto.club/build/_assets/image-1-WYGC4JUJ.png);
   background-size: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,8 +19,9 @@ font-family: 'Bangers', cursive;
 letter-spacing: 1px;
 }
 @media screen and (min-width: 600px){
-  body{
-  background-size: 100%;}
+body{
+  background-size: 100%;
+}
   
 }
 
@@ -247,8 +248,6 @@ button{
     padding: 5px;
     font-family: 'Luckiest Guy';
     margin: 0 auto;
-    background-color: var(--timelineCardBackgroundColor, rgba(255, 255, 255, 0.527));
-
 
 
   }
