@@ -573,3 +573,10 @@ vertical-align: middle;
 .p-head{
   color: aqua;
 }
+.beta{
+  width: 130px;
+  background-color: #ff0000;
+  padding:3px;
+  border-radius: 25%;
+  color:white;
+}
