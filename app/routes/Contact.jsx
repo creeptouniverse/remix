@@ -26,14 +26,14 @@ export default function Contact(){
 
          </div>
          <div className="glass">
-             <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/564032425270715743799702115888886009457899973449691819862162950607928735826220">
-         <img className="gallery-image" src="https://lh3.googleusercontent.com/hA6HAEAtR2WwnyBCYUSmhE1bIcX_navRWjcVP0kQ3B6lcBQZgAoAybjovwnPqK8LYviGHV5LnWEWqBZtTMeFLEFbmFKwt3tnjnSu4w"></img></a>
+             <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/56403242527071574379970211588888600945789997344969181986216295034404594515969">
+         <img className="gallery-image" src="https://lh3.googleusercontent.com/350-Vkl3vVMRKuzfbE4k5Y5Tn32Ze4P9C69LKn7xsbcCKr4i-GydWtB-hCgbrcdWDgm0bFR41TnpTOdZ8nuQHeDXftLTMi-wKNfV=w600"></img></a>
 
 
          </div>
          <div className="glass">
-             <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/564032425270715743799702115888886009457899973449691819862162950607928735826220">
-         <img className="gallery-image" src="https://lh3.googleusercontent.com/hA6HAEAtR2WwnyBCYUSmhE1bIcX_navRWjcVP0kQ3B6lcBQZgAoAybjovwnPqK8LYviGHV5LnWEWqBZtTMeFLEFbmFKwt3tnjnSu4w"></img></a>
+             <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/56403242527071574379970211588888600945789997344969181986216295035504106143745">
+         <img className="gallery-image" src="https://lh3.googleusercontent.com/3FSzkDbF6aoPekgy8JXnQZUEi6fy-dKXzXI6aTV8uI2S215a7aoqsRWVvbokYKSFbVxUOqBUq0Bq3UjyxPXqzZaL3q83t0uqhrOnLRU=w600"></img></a>
 
 
          </div>

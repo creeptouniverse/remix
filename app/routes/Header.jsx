@@ -6,7 +6,7 @@ export default function Header(){
             <nav>
                 <a href="#header">
                 <li>Welcome!</li></a>
-                <a href="/">
+                <a href="#about">
                 <li>About</li></a>
                 <a href="#roadmap">
                 <li>Roadmap</li></a>

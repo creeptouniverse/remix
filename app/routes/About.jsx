@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png"
 export default function About(){
     return(
-       <section className="div-about">
+       <section className="div-about" id="about">
            <div className="div-img">
                <img className="about-image-logo" src={logo}></img>
            </div>
