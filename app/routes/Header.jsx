@@ -20,7 +20,7 @@ export default function Header(){
                 CreeptoUniverse</p>
                 <span className="beta">BETA Version</span>
                 <p className="p-head">The Project Never Before.
-NFT collection of 3D amazing creepyto universe.<br/> Full collection Launching on March 20. 
+NFT collection of 3D amazing creepto universe.<br/> Full collection Launching on March 20. 
 <br/>Subscribe to our <a href="https://www.getrevue.co/profile/creeptoclub?via=twitter-profile">Newsletter</a> or join discord </p><a href="https://opensea.io/collection/creeptouniverse">
                 <button className="header-button-1" title="Presale Products on opensea">Presale</button></a>
                 <a href="https://t.co/g2ZlOQHxSY">
