@@ -14,8 +14,7 @@ html::-webkit-scrollbar {
 }
 
 body{
-  background-image: url('https://assets.codepen.io/1538474/star.svg'),linear-gradient(to bottom, #05007A, #4D007D);  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: url('https://assets.codepen.io/1538474/star.svg'),linear-gradient(to bottom, #05007A, #4D007D);  background-attachment: fixed;
 font-family: 'Bangers', cursive;
 letter-spacing: 1px;
 }
