@@ -262,7 +262,7 @@ button{
   .p{
     box-shadow: 0 24px 43px -3px rgba(104, 103, 103, 0.55);
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background-color: var(--timelineCardBackgroundColor, rgba(255, 255, 255, 0.445));
+    background-color: var(--timelineCardBackgroundColor, rgba(255, 255, 255, 0));
 
     margin: 20px;
     border-radius: 20px;
