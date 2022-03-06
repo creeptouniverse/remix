@@ -1,4 +1,5 @@
 import image from "../assets/image-1.png"
+import SimpleImageSlider from "react-simple-image-slider";
 
 export default function Header(){
     return(
@@ -30,6 +31,7 @@ NFT collection of 3D amazing universe.<br/> Full collection Launching on March 2
                 <a href="">
                 <img className="m-img" title="Best Project Of our Collection" src={image}></img></a>
             </div>
+        
 
         </section>
     )

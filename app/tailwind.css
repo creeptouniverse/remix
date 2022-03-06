@@ -13,6 +13,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+
 body{
   background-image: url('https://assets.codepen.io/1538474/star.svg'),linear-gradient(to bottom, #05007A, #4D007D);  background-attachment: fixed;
 font-family: 'Bangers', cursive;
@@ -22,6 +23,12 @@ letter-spacing: 1px;
 @media screen and (min-width: 600px){
 body{
   background-size: 100%;
+
+}
+.header{
+  height: 700px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
   
 }
@@ -42,14 +49,14 @@ backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
 section{
-    height: 100vh;
+  
     /* From https://css.glass */
 background: rgba(255, 255, 255, 0.247);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+border: 1px solid rgba(238, 255, 0, 0.582);
 margin: 0px;
 margin-bottom: 10px;
 }
@@ -80,7 +87,7 @@ li{
 /* Header */
 .image-1{
     position: absolute;
-    right: 70px;
+    right: 100px;
     top: 100px;
     
 }
@@ -144,9 +151,11 @@ li{
     .section-roadmap{
         height: 178vh;
     }
+    .header{
+      height: 500px;
+    }
     .image-1{
         width: 100%;
-        position: absolute;
         bottom: 0;
     }
     .m-img{
@@ -212,7 +221,7 @@ button{
       height: 185vh;
   }
   .header{
-    height: 105vh;
+    height: 100%;
   }
     
   }
