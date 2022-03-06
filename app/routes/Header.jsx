@@ -1,19 +1,23 @@
 import image from "../assets/image-1.png"
 import SimpleImageSlider from "react-simple-image-slider";
 
+import logo from "../assets/logo.png"
 export default function Header(){
     return(
         <section className="header" id="header">
+
             <nav>
+
+                <div>
                 <a href="#header">
-                <li>Welcome!</li></a>
+                <li className="li-header">Welcome</li></a>
                 <a href="#about">
-                <li>About</li></a>
+                <li className="li-header">About</li></a>
                 <a href="#roadmap">
-                <li>Roadmap</li></a>
+                <li className="li-header">Roadmap</li></a>
                 <a href="#gallery">
-                <li>Gallery</li></a>
-                <a href="/"></a>
+                <li className="li-header gallery">Gallery</li></a>
+                <a href="/"></a></div>
             </nav>
             <div className="head-p">
                 <p className="main-title">
@@ -21,9 +25,9 @@ export default function Header(){
                 CreeptoUniverse</p>
                 <span className="beta">BETA Version</span>
                 <p className="p-head">The Project Never Before.
-NFT collection of 3D amazing universe.<br/> Full collection Launching on March 20. 
-<br/>Subscribe to our <a href="https://www.getrevue.co/profile/creeptoclub?via=twitter-profile">Newsletter</a> or join discord </p><a href="https://opensea.io/collection/creeptouniverse">
-                <button className="header-button-1" title="Presale Products on opensea">Presale</button></a>
+NFT collection of 3D amazing universe.<br/> Full collection Launching soon. 
+<br/>Subscribe to our <a href="https://www.getrevue.co/profile/creeptoclub?via=twitter-profile">Newsletter</a> or join discord </p><a href="https://twitter.com/CreeptoClub">
+                <button className="header-button-1" title="Presale Products on opensea">Twitter</button></a>
                 <a href="https://t.co/g2ZlOQHxSY">
                 <button className="header-button-2">Discord</button></a>
             </div>

@@ -13,13 +13,15 @@ export function meta() {
   return { title: "Creepto club - Collection of some creepy universe" };
 }
 import tailwindstyles from "./tailwind.css";
+import roadmap from "./assets/roadmap.css"
 export let links = () => {
   return [
     {
       rel: "stylesheet",
       href: loginStyles
     },
-    { rel: "stylesheet", href: tailwindstyles }
+    { rel: "stylesheet", href: tailwindstyles },
+    { rel: "stylesheet", href: roadmap}
   ];
 };
 export let link = () => {

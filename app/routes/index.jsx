@@ -1,7 +1,7 @@
 import { Link } from "remix";
 import logo from "../assets/logo.png"
 import Header from "./Header";
-import Roadmap from "./Roadmap"
+import Road from "./Road"
 import About from "./About"
 import Footer from "./Footer";
 import Contact from "./Contact"
@@ -11,7 +11,7 @@ export default function Index() {
 <div>
   <Header />
   <About />
-  <Roadmap />
+  <Road />
   <Contact />
   <Footer />
 </div>
